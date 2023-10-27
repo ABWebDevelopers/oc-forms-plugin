@@ -6,9 +6,10 @@ plugin:
     homepage: ''
 navigation:
     bradie-forms:
-        label: 'Custom Forms'
+        label: 'abwebdevelopers.forms::lang.plugin.name'
         url: abwebdevelopers/forms/form
-        icon: icon-list-alt
+        icon: icon-wpforms
+        iconSvg: 'plugins/abwebdevelopers/forms/assets/icon-forms.svg'
         order: 500
         permissions:
             - abwebdevelopers.forms.forms

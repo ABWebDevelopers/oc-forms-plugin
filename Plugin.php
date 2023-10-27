@@ -33,13 +33,13 @@ class Plugin extends PluginBase
     {
         return [
             'settings' => [
-                'label' => 'Custom Forms',
-                'description' => 'Simple multipurpose form builder',
-                'category'    => 'Small plugins',
-                'icon' => 'icon-inbox',
-                'class' => 'ABWebDevelopers\Forms\Models\Settings',
-                'keywords' => 'form custom contact abweb recaptcha antispam',
-                'order' => 555,
+                'label'       => 'abwebdevelopers.forms::lang.settings.plugin.label',
+                'description' => 'abwebdevelopers.forms::lang.settings.plugin.description',
+                'category'    => 'abwebdevelopers.forms::lang.settings.plugin.category',
+                'icon'        => 'icon-cog',
+                'class'       => 'ABWebDevelopers\Forms\Models\Settings',
+                'keywords'    => 'form custom contact abweb recaptcha antispam',
+                'order'       => 555,
                 'permissions' => ['abwebdevelopers.forms.access_settings'],
             ]
         ];
